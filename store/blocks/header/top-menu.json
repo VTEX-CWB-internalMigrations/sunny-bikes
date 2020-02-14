@@ -1,57 +1,40 @@
 {
-  "vtex.menu@2.x:menu#websites": {
-    "children": [
-      "menu-item#shop",
-      "menu-item#about-us"
-    ]
-  },
-  "menu-item#shop": {
-    "props": {
-      "id": "menu-item-shop",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "Shop",
-        "text": "Shop"
-      }
-    }
-  },
-  "menu-item#about-us": {
-    "props": {
-      "id": "menu-item-about-us",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/about-us",
-        "noFollow": false,
-        "tagTitle": "about-us",
-        "text": "About Us"
-      }
-    }
-  },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "menu-item#vtex-website"
-    ]
-  },
-  "menu-item#vtex-website": {
+      "menu-item#account",
+      "menu-item#orders"
+    ],
     "props": {
-      "id": "menu-item-vtex-website",
+      "blockClass": "accountOptions"
+    }
+  },
+  "menu-item#account": {
+    "props": {
+      "id": "menu-item-vtex-profile",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "external",
-        "href": "http://vtex.com",
+        "href": "/account",
         "noFollow": false,
-        "tagTitle": "visit vtex.com",
-        "text": "visit vtex.com"
+        "tagTitle": "Meu Cadastro",
+        "text": "MEU CADASTRO"
+      }
+    }
+  },
+  "menu-item#orders": {
+    "props": {
+      "id": "menu-item-vtex-account",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "/account#/orders",
+        "noFollow": false,
+        "tagTitle": "Meus Pedidos",
+        "text": "MEUS PEDIDOS"
       }
     }
   }
