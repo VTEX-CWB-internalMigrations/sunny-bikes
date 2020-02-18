@@ -1,8 +1,6 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
-    "children": [
-      "menu-item#category-apparel"
-    ],
+    "children": [],
     "props": {
       "blockClass": "whiteColor"
     }
