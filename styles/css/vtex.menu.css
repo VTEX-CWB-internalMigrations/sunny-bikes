@@ -14,5 +14,10 @@
 
 .menuContainer--whiteColor .styledLink{
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.styledLinkContainer--whiteColor{
+    margin: 0px 13px;
 }

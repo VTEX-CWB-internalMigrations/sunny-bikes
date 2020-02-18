@@ -18,9 +18,7 @@
 }
 
 .newsletter {
-  background-color: #03054E;
-  max-width: 1528px;
-  margin: 0 auto;
+  background-color: #000;
 }
 
 .newsletter .container {
@@ -49,13 +47,6 @@
   font-size: 16px;
 }
 
-.inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  margin-right: -24px;
-}
-
 .buttonContainer {
   padding-top: 0px;
 }
@@ -65,14 +56,16 @@
   margin-bottom: 20px;
 }
 
+.imageElement--brandImages{
+  height: 130px;
+  width: auto !important;
+}
+
 .skuSelectorContainer {
   margin: 1rem 0;
 }
 
 @media only screen and (min-width: 640px) {
-  .newsletter .container {
-    padding: 140px;
-  }
 
   .label {
     font-size: 40px;

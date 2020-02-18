@@ -9,9 +9,11 @@
       "list-context.image-list#brands",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
+      "rich-text#shelf-title2",
+      "flex-layout.row#shelf",
+      "rich-text#shelf-title3",
+      "flex-layout.row#shelf",
+      //"info-card#home",
       "newsletter"
     ]
   },
@@ -49,6 +51,7 @@
     ],
     "props": {
       "height": 720,
+      "blockClass": "brandImages",
       "images": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
@@ -78,7 +81,7 @@
       "slider-layout#brand-images"
     ],
     "props": {
-      "height": 200,
+      "height": 100,
       "images": []
     }
   },
@@ -90,10 +93,23 @@
         "phone": 1
       },
       "infinite": true,
-      "showNavigationArrows": "desktopOnly"
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "brandImages"
     }
   },
   "rich-text#shelf-title": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title2": {
+    "props": {
+      "text": "## Summer",
+      "blockClass": "shelfTitle"
+    }
+  },
+  "rich-text#shelf-title3": {
     "props": {
       "text": "## Summer",
       "blockClass": "shelfTitle"

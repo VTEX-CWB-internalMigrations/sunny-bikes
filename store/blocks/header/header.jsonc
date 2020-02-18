@@ -51,8 +51,8 @@
   "header-row#4-desktop": {
     "children": [
       "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
+      "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "search-bar",
       "locale-switcher",
