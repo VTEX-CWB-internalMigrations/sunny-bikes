@@ -6,6 +6,7 @@
        * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
       // "flex-layout.row#deals",
       "flex-layout.row#images",
+      "list-context.image-list#brands",
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "info-card#home",
@@ -70,6 +71,26 @@
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel"
+    }
+  },
+  "list-context.image-list#brands": {
+    "children": [
+      "slider-layout#brand-images"
+    ],
+    "props": {
+      "height": 200,
+      "images": []
+    }
+  },
+  "slider-layout#brand-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly"
     }
   },
   "rich-text#shelf-title": {

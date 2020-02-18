@@ -67,6 +67,30 @@
   font-weight: 700;
 }
 
+.container--contactText .heading{
+  margin: 0px;
+  color: #0f3e99;
+}
+
+.container--contactText .paragraph{
+  margin: 0px 0px 10px;
+  font-size: 15px;
+}
+
+.container--contactText .link{
+  color: #000;
+  text-decoration: none;
+}
+
+.container--iframeFacebook .paragraph{
+  font-size: 0px;
+  margin: 0px
+}
+
+.paragraph--footer{
+  font-size: 13px;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
