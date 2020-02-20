@@ -14,17 +14,39 @@
   },
   "flex-layout.row#footer-1-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#Products",
-      "vtex.menu@2.x:menu#footer-clothing",
-      "vtex.menu@2.x:menu#footer-decoration",
-      "vtex.menu@2.x:menu#footer-bags",
       "footer-spacer",
-      "social-networks"
+      "vtex.menu@2.x:menu#footerfirst",
+      "vtex.menu@2.x:menu#footersecond",
+      "flex-layout.col#footerOneRowOne",
+      "flex-layout.col#footerOneRowTwo",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "menu-row",
       "paddingTop": 6,
       "paddingBottom": 3
+    }
+  },
+  "flex-layout.col#footerOneRowOne": {
+    "children": [
+      "rich-text#certified"
+    ]
+  },
+  "flex-layout.col#footerOneRowTwo": {
+    "children": [
+      "rich-text#atendimento"
+    ]
+  },
+  "rich-text#certified": {
+    "props": {
+      "text": "**Certificados e Segurança**",
+      "blockClass": "footerText"
+    }
+  },
+  "rich-text#atendimento": {
+    "props": {
+      "text": "**Atendimento**",
+      "blockClass": "footerText"
     }
   },
   "social-networks": {
@@ -51,7 +73,10 @@
   },
   "flex-layout.row#footer-2-desktop": {
     "children": [
-      "accepted-payment-methods"
+      "footer-spacer",
+      "accepted-payment-methods",
+      "social-networks",
+      "footer-spacer"
     ],
     "props": {
       "blockClass": "payment-methods"
