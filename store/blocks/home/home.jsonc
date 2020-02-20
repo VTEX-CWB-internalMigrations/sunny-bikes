@@ -17,6 +17,11 @@
       "newsletter"
     ]
   },
+  "newsletter": {
+    "props": {
+      "label": "NEWSLETTER"
+    }
+  },
   "flex-layout.row#images": {
     "children": [
       "image#pedalPaulista",
