@@ -94,6 +94,18 @@
 .container--footerText{
   color: #fff;
 }
+
+.image--instutitionalText{
+  max-width: 260px;
+  margin: 0px auto;
+  display: block;
+}
+
+.headingLevel4--instutitionalText{
+  font-weight: 700;
+  color: #ff631d;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;
