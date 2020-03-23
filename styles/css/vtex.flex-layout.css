@@ -35,3 +35,7 @@
 .flexCol--switcherMobileCol {
   width: 20%;
 }
+
+.flexColChild--certifiedCol{
+  height: auto !important;
+}

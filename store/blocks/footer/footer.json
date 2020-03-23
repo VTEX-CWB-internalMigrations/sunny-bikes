@@ -29,8 +29,12 @@
   },
   "flex-layout.col#footerOneRowOne": {
     "children": [
-      "rich-text#certified"
-    ]
+      "rich-text#certified",
+      "image#certified"
+    ],
+    "props":{
+      "blockClass": "certifiedCol"
+    }
   },
   "flex-layout.col#footerOneRowTwo": {
     "children": [
@@ -41,6 +45,12 @@
     "props": {
       "text": "**Certificados e Segurança**",
       "blockClass": "footerText"
+    }
+  },
+  "image#certified":{
+    "props":{
+      "src": "",
+      "blockClass": "certified"
     }
   },
   "rich-text#atendimento": {
