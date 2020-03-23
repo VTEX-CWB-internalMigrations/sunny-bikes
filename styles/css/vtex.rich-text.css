@@ -110,6 +110,10 @@
   padding: 0px 1.5em;
 }
 
+.link--footerText{
+  color: #fff;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

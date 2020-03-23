@@ -119,7 +119,7 @@
     "children": [
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
-      "flex-layout.row#footer-3-desktop"
+      "flex-layout.row#footer-3-mobile"
     ]
   },
   "flex-layout.row#2-footer-mobile": {
@@ -154,10 +154,18 @@
       "vtex.menu@2.x:menu#footer-mobile"
     ]
   },
+  "flex-layout.row#footer-3-mobile": {
+    "children": [
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
   "rich-text#footer-mobile": {
     "props": {
       "text": "All stock and product photos are from photos.icons8.com",
-      "blockClass": "footer"
+      "blockClass": "mobilefooter"
     }
   }
 }
