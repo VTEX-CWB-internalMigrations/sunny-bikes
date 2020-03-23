@@ -25,3 +25,11 @@
 .styledLink--footerMenu{
     color: #fff;
 }
+
+.submenuWrapper{
+    width: 100%;
+}
+
+.styledLinkContent--mainSubmenu{
+    color: #000;
+}

@@ -1,8 +1,42 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
-    "children": [],
+    "children": [
+      "menu-item#allMenu"
+    ],
     "props": {
       "blockClass": "whiteColor"
+    }
+  },
+  "menu-item#allMenu":{
+    "blocks":[
+      "vtex.menu@2.x:submenu#submenuAll"
+    ],
+    "props": {
+      "id": "menu-item-category-allSubmenu",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": false,
+        "tagTitle": "TODOS OS DEPARTAMENTOS",
+        "text": "TODOS OS DEPARTAMENTOS"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#submenuAll":{
+    "children":[
+      "vtex.menu@2.x:menu#submenuAll"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenuAll":{
+    "children":[
+
+    ],
+    "props":{
+      "orientation": "vertical",
+      "blockClass": "mainSubmenu"
     }
   },
   "menu-item#category-apparel": {

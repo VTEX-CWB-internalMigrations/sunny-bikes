@@ -1,8 +1,10 @@
 .label{
     color: #fff; 
 }
-
 .profileIcon{
     color: #fff;
+}
+.buttonLink :global(.vtex-button){
+    max-width: 30px;
 }
 

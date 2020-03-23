@@ -55,7 +55,6 @@
       "vtex.menu@2.x:menu#category-menu",
       "header-spacer",
       "search-bar",
-      "locale-switcher",
       "login",
       "minicart.v2"
     ],

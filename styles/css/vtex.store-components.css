@@ -68,11 +68,18 @@
 .logoImage{
   width: 100%;
   max-width: 125px;
+  padding: 10px 0px;
 }
-
 
 @media only screen and (min-width: 640px) {
 
+  .logoImage{
+    width: 100%;
+    max-width: 195px;
+    padding-bottom: 10px;
+    min-width: 100px;
+  }
+  
   .label {
     font-size: 40px;
   }
