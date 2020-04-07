@@ -17,6 +17,10 @@
   padding: 0px;
 }
 
+.subscriberContainer{
+  display: none;
+}
+
 .newsletter {
   background-color: #111;
 }
