@@ -10,9 +10,9 @@
       "rich-text#shelf-title",
       "flex-layout.row#shelf",
       "rich-text#shelf-title2",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf2",
       "rich-text#shelf-title3",
-      "flex-layout.row#shelf",
+      "flex-layout.row#shelf3",
       //"info-card#home",
       "newsletter"
     ]
@@ -121,6 +121,16 @@
     }
   },
   "flex-layout.row#shelf": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "flex-layout.row#shelf2": {
+    "children": [
+      "list-context.product-list#demo1"
+    ]
+  },
+  "flex-layout.row#shelf3": {
     "children": [
       "list-context.product-list#demo1"
     ]
